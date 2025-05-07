@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('May this little gift remind you of how deeply I cherish you, today and always.').split('');
+        const titles = (' I love you so deeply and endlessly.').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "If the stars could whisper, they would tell you how often I think of you. If the wind could sing, it would hum the melody of my heart every time you’re near. But since neither can speak, let this flower carry my love to you. Every petal of this flower carries a whisper of my love for you—soft, pure, and endless. Just like this bloom, my feelings for you will never fade but only grow more beautiful with time. ";
+            subtitle.innerText = "I dedicate this flower to you. These four months with you aren't just time that passed, but a journey of how you turned my days into the most comforting place to come home to. Thank you for staying, for still being you. Happy 4th month, my love.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
